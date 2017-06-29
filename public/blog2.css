@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+html {
+
+	font-size: 1.5rem;
+}
+
 
 img {
 	width: 10%;
@@ -14,4 +19,33 @@ img {
 
 .container {
 	max-width: 1400px;
+}
+
+button {
+	padding: 20px;
+}
+
+
+@media screen and (max-width:900px){
+
+
+
+img {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+ul {
+	margin: auto;
+	text-align: center;
+	list-style-type: none;
+}
+
+li {
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+}
+
 }
