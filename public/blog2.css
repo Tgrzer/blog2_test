@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+img {
+	width: 10%;
+	border:1px solid;
+
+}
+
+
+.container {
+	max-width: 1400px;
+}

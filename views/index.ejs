@@ -1,0 +1,22 @@
+<% include partials/header  %>
+
+
+
+<div class="container">
+
+<% blog.forEach(function(blog){   %>
+	<ul>
+		<li> <%=blog.title %> </li>
+	<a href="/blogs/<%=blog._id%>">	<img src="<%= blog.image%>"> </a>
+
+<%  })   %>
+
+
+
+<button><a href="/blogs/new"> Create new post...</a> </button>
+
+</div>
+
+
+
+<% include partials/footer  %>

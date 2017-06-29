@@ -1,0 +1,25 @@
+<% include partials/header  %>
+
+
+
+<div class="container">
+
+
+	<ul>
+		<li> <%=blog.title %> </li>
+		<img src="<%= blog.image%>">
+	</ul>
+
+
+
+<button><a href="/blogs/new"> Create new post...</a> </button>
+<button><a href="/blogs/<%=blog._id%>/edit"> Edit post...</a> </button>
+<button><a href="/blogs"> Index...</a> </button>
+
+
+
+</div>
+
+
+
+<% include partials/footer  %>
